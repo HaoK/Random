@@ -64,9 +64,9 @@ namespace OAuth
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
-
             app.UseAuthentication();
+
+            app.UseMvc();
 
             app.UseSignalR(routes =>
             {

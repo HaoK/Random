@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace OAuth.Pages
 {
-    [Authorize(AuthenticationSchemes = "Cookies")]
+    [Authorize]
     public class ChatModel : PageModel
     {
         public void OnGet()
