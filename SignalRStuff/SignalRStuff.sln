@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorsClient", "CorsClient\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth", "OAuth\OAuth.csproj", "{CFA8B63A-88E7-4EE4-A51E-889C14449E16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis", "Redis\Redis.csproj", "{7D8A63F6-58EF-403F-A87C-501A4311B942}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{CFA8B63A-88E7-4EE4-A51E-889C14449E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA8B63A-88E7-4EE4-A51E-889C14449E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA8B63A-88E7-4EE4-A51E-889C14449E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8A63F6-58EF-403F-A87C-501A4311B942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8A63F6-58EF-403F-A87C-501A4311B942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8A63F6-58EF-403F-A87C-501A4311B942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8A63F6-58EF-403F-A87C-501A4311B942}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
