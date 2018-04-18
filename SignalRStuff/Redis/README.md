@@ -1,8 +1,9 @@
 # SignalR + Redis
 
-This sample depends on a redis instance, you can set one up on windows via https://github.com/MicrosoftArchive/redis
+This sample depends on a redis instance, you can set one up on windows via https://github.com/MicrosoftArchive/redis.
+
 By default this app expects Redis to be setup locally, but you can point redis someplace other than the default localhost port, 
-via AddSignalR().AddRedis(o => o.Options = StackExchange.Redis.ConfigurationOptions.Parse("<connectionString>")).
+via `AddSignalR().AddRedis(o => o.Options = StackExchange.Redis.ConfigurationOptions.Parse("<connectionString>"))`.
 
 To see the redis messages:
  - run redis-cli monitor
