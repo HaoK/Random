@@ -10,7 +10,7 @@ This app demonstrates using google/twitter to do basic authentication.
                 .AddCookie(o => o.LoginPath = "/ExternalLogin")
                 .AddGoogle(o => Configuration.GetSection("authentication:google").Bind(o))
                 .AddTwitter(o => Configuration.GetSection("authentication:twitter").Bind(o));
-``
+```
 
 - Flow: /Home -> /Chat -> /ExternalLogin -> external Twitter/Google -> /Chat 
 - You can verify via incognito and a normal browser that twitter, google sign ins work and can chat with each other successfully
