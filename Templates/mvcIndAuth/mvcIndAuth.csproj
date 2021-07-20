@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <UserSecretsId>aspnet-mvcIndAuth-F99DCBF2-2D11-46FA-80B4-D26BB751F57F</UserSecretsId>
+    <UserSecretsId>aspnet-mvcIndAuth-DCF9FF8D-D21D-4150-B661-3D834C1D5876</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,8 +14,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0-dev" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0-dev" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0-dev" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-preview.7.21351.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-preview.7.21351.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-rc.1.21366.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-rc.1.21366.2" />
   </ItemGroup>
 
 </Project>
