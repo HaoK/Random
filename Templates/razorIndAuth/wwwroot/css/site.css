@@ -17,7 +17,15 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #0077cc;
+}
+
+input {
+    border-color: #0077cc
+}
+
+input:focus {
+    border-color: #0077cc
 }
 
 .btn-primary {
