@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <UserSecretsId>aspnet-razorIndAuth-F5354EC5-13F4-454C-9071-E655B6B2EFF3</UserSecretsId>
+    <UserSecretsId>aspnet-razorIndAuth-523E2899-8C6E-4E24-926C-E25B7B73BD74</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
