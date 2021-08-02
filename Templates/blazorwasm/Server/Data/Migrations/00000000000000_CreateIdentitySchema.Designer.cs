@@ -98,7 +98,7 @@ namespace blazorwasm.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51920)
+                        .HasMaxLength(52120)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
@@ -147,7 +147,7 @@ namespace blazorwasm.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51920)
+                        .HasMaxLength(52120)
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("DataProtected")
@@ -189,7 +189,7 @@ namespace blazorwasm.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51920)
+                        .HasMaxLength(52120)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")

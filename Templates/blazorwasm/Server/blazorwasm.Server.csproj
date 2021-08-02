@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <UserSecretsId>blazorwasm.Server-31030527-FD70-4C69-9E94-5E2DBBCE5FD8</UserSecretsId>
+    <UserSecretsId>blazorwasm.Server-B72F59B0-299A-47B0-AD9C-AC2C76BB1B91</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,8 +24,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0-dev" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0-dev" />
     <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.0-dev" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-rc.1.21376.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-rc.1.21376.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-rc.1.21402.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-rc.1.21402.2" />
   </ItemGroup>
 
 </Project>
