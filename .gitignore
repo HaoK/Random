@@ -39,7 +39,6 @@ autobahnreports/
 site.min.css
 .idea/
 .vscode/
-dist/
 global.json
 BenchmarkDotNet.Artifacts/
 .rpt2_cache/
